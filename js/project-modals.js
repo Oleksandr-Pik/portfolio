@@ -8,6 +8,8 @@ const projectModalAdilat = document.querySelector("#personal-project-adilat");
 
 const projectModalPhoneBook = document.querySelector("#team-project-phonebook");
 
+const projectModalMovies = document.querySelector("#team-project-movies");
+
 const projectOpenBtnWebStudio = document.querySelector(
   "#personal-project-webstudio-btn"
 );
@@ -20,12 +22,16 @@ const projectOpenBtnAdilat = document.querySelector(
 const projectOpenBtnPhoneBook = document.querySelector(
   "#team-project-phonebook-btn"
 );
+const projectOpenBtnMovies = document.querySelector(
+  "#team-project-movies-btn"
+);
 
 const projectModals = [
   projectModalWebStudio,
   projectModalBarberShop,
   projectModalAdilat,
   projectModalPhoneBook,
+  projectModalMovies,
 ];
 
 const projectBtns = [
@@ -33,6 +39,7 @@ const projectBtns = [
   projectOpenBtnBarberShop,
   projectOpenBtnAdilat,
   projectOpenBtnPhoneBook,
+  projectOpenBtnMovies,
 ];
 
 projectBtns.forEach((btn, index) => {

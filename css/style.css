@@ -376,6 +376,11 @@ body {
   text-decoration: none;
   margin-bottom: 25px;
   display: block;
+  transition: var(--animation-transition);
+}
+
+.project-modal-title:hover {
+  color: var(--txt-c-accent);
 }
 
 .project-modal-text {
@@ -784,7 +789,7 @@ body {
 .team-projects-title-bgd {
   position: absolute;
   top: -50px;
-  left: 45px;
+  left: 20px;
   font-weight: bold;
   font-size: 150px;
   line-height: 1.2;
@@ -1449,8 +1454,8 @@ body {
 
   .team-projects-title-bgd {
     font-size: 250px;
-    top: 35px;
-    left: 274px;
+    top: -15px;
+    left: 155px;
   }
 
   .mobile-menu-items {
