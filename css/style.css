@@ -146,6 +146,22 @@ body {
   margin-bottom: 20px;
 }
 
+.up-arrow {
+  display: block;
+  position: fixed;
+  z-index: 10;
+  font-size: 30px;
+  bottom: 30px;
+  right: 30px;
+  color: var(--txt-c-grey);
+  transition: var(--animation-transition);
+}
+
+.up-arrow:hover {
+  transform: scale(1.1);
+  color: var(--c-accent);
+}
+
 /* MODALS =============================== */
 
 .modal {
